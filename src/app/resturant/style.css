@@ -1,0 +1,51 @@
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.header-wrapper ul{
+    display: flex;
+}
+.header-wrapper ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+.header-wrapper ul li a{
+    text-decoration: none;
+}
+.header-wrapper ul li button{
+    background-color: transparent;
+    border: none;
+    color: blue;
+    font-size: 15;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer-wrapper{
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
+    position: fixed;
+}
+.login-button{
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    color: darkred;
+    margin: 20px;
+}
+.input-error{
+    position: absolute;
+    padding: 8px;
+    color: red;
+    font-size: 13px;
+}
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table td button{
+    margin: 4px
+}

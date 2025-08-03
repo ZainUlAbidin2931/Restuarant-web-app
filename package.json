@@ -1,0 +1,21 @@
+{
+  "name": "resto-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "next lint",
+    "dev": "cross-env NODE_ENV=development next dev",
+    "build": "cross-env NODE_ENV=production next build",
+    "start": "cross-env NODE_ENV=production next start"
+  },
+  "dependencies": {
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.0",
+    "next": "15.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
